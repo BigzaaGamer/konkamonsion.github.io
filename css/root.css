@@ -1,0 +1,7 @@
+a {
+    text-decoration: none;
+    color:inherit;
+}
+.back-overlay{display:none;position: fixed;top:0;bottom: 0;left:0;right:0;background-color: #00000073;z-index:99;}
+.overlay-block{position:relative;display: block;width: 600px;height: auto;max-height:90%;overflow-y:auto;padding:15px;background: #ebebeb;border-radius: 8px;top:50%;left:50%;transform: translate(-50%,-50%);}
+.dropdown-divider{margin:5px !important;}

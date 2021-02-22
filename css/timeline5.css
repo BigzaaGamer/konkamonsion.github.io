@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600;700&display=swap');
+p {
+  margin: 0;
+}
+
+#post-container, #infoBox-Container {
+  margin-bottom: 50px;
+}
+
+#update-status {
+}
+
+#fileInputAndButton {
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --gray1: #eaeaea;
+}
+
+.post span#posttime {
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.post span#fullname {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+.nav-item {
+}
+
+#update-status {
+  height: auto;
+  position: relative;
+  box-shadow: 5px 5px 8px var(--gray1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#postButton {
+  right: 50px;
+  margin-top: 15px;
+}
+
+#post {
+  margin-top: 50px;
+  box-shadow: var(--gray1) 5px 5px 5px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.post-box {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: var(--gray1);
+}
+
+#postContent {
+  margin-top: 10px;
+}
+#postContent img {
+    width:100%
+  }
+
+.mini-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#fullname {
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Mitr;
+  font-weight: 600;
+}
+

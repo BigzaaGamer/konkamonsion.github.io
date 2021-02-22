@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600;700&display=swap'); 
+
+
+body {
+  background-color: #eaeaea;
+}
+:root {
+    --black: #0a0a0a;
+  }
+  * {
+    box-sizing: border-box;
+    font-family: Mitr;
+    font-weight: 600;
+  }  
