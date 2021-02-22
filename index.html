@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/a8f584533b.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600;700&display=swap');
+            *{font-family: 'Mitr', TH SarabunPSK;font-weight: 400;}
+            table, tr#header ,td,th{border:1px solid black;border-spacing: 0;}
+            tr#header th{font-weight: 800;border:2px solid black;padding:10px;font-size: 20px;}
+            td{border:1px solid black ;border-spacing: 0;padding:10px;}
+            body{margin:0;background-color: #1e212d;}
+            .badge{padding:2px;display: inline-block;width:fit-content;font-weight: 600;border-radius: 6px;font-size: 10px;align-items: center;}
+            .incompleted{background-color: #f14668;color:#fafafa;text-shadow: #1e212d 1px 1px 1px;}
+            .danger{background-color: #fb743e;color:#fafafa;text-shadow: #1e212d 1px 1px 1px;}
+            .italic{font-style: italic;}
+            .block{display: block;border-radius: 10px;background-color: #faf3e0;padding:15px;height: fit-content;}
+            ul{margin:0;margin-bottom: 10px;}
+            .box-header{font-size: 35px;font-weight: 800;}
+            .block a {font-size: 16px;text-decoration: none;color:#1e212d}
+            hr{border:#1e212d 1px solid}
+        </style>
+        <title>โปรเจค Social Platform</title>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h1 style="font-weight: 800;color:#f4f9f9;text-shadow: rgb(70, 70, 70) 2px 2px 5px;">โปรเจ็ค เว็บ Social Platform</h1>
+        </div>
+        <div style="padding:0 50px 50px 50px;display: flex;flex-direction: row;">
+            <div class="block" style="width:30%;margin-right: 5px;font-weight: 600;position: static;">
+                Version
+                <ul>
+                    <li><a href="#0.1.1">v0.1.1</a></li>
+                </ul>
+                <hr>
+                <a href="https://github.com/BigzaaGamer/social-platform-project-nvc/projects/1" target="_blank">ดูสิ่งที่ต้องทำ / เรียบร้อยแล้ว ได้ที่นี่</a>
+            </div>
 
+            <div class="block" style="width: 100%;">
+                <span class="box-header" id="0.1.1">Social Platform V0.1.1</span><br>
+                <div style="display:flex;align-items: center;"><a href="https://github.com/BigzaaGamer/social-platform-project-nvc/tree/0.1.1" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="20px" />ดูบน GitHub</a></div>
+                <hr>
+                <span class="italic" style="font-size: 12px;">แก้ไขล่าสุด : 22/2/2021 21:30</span><br>
+                        <span style="font-size: 20px;font-weight: 800;">ภาพรวม</span>
+                        <ul>
+                            <li>หน้าหลัก <span class="badge incompleted">ยังไม่สมบูรณ์</span> <span class="badge incompleted">หน้าตา / ระบบ ไม่เรียบร้อย</span></li>
+                            <li>หน้าโปรไฟล์ <span class="badge incompleted">ยังไม่สมบูรณ์</span></li>
+                            <li>หน้าสำหรับ Admin <span class="badge incompleted">ยังไม่สมบูรณ์</span></li>
+                            <li>ตอนนี้หน้าหลัก แสดงโพสต์ของทุกคนที่ใช้ Platform <span class="badge danger">ต้องแก้ไข</span></li>
+                        </ul>
+                        <span style="font-size: 20px;font-weight: 800;">ส่วนผู้ใช้งานระบบ (User)</span>
+                        <ul>
+                            <li>ระบบ Login & Register</li>
+                            <li>แก้ไขโปรไฟล์ <span class="badge incompleted">ยังไม่สมบูรณ์</span></li>
+                            <li>สามารถโพสต์ได้ ทั้งแบบ รูปภาพ / ข้อความ </li>
+                            <li>สามารถดูหน้าโปรไฟล์ผู้ใช้คนอื่นได้</li>
+                            <li>สามารถคอมเม้นต์โพสต์ตัวเองได้</li>
+                            <li>สามารถลบโพสต์ / คอมเม้น ของตัวเองได้</li>
+                            <li>สามารถค้นหาผู้ใช้ใน Platform ได้ <span class="badge incompleted">ยังไม่สมบูรณ์</span></li>
+                            <li>สามารถเปลี่ยนรูปโปรไฟล์ และรูปหน้าปกได้ <span class="badge incompleted">ยังไม่สมบูรณ์</span></li>
+                        </ul>
+                        <span style="font-size: 20px;font-weight: 800;">ส่วนผู้ดูแลระบบ (Admin)</span>
+                        <ul>
+                            <li>สามารถระงับ และปลดระงับผู้ใช้ ได้ <span class="badge incompleted">ยังไม่สมบูรณ์</span></li>
+                            <li>ระบบอนุมัติผู้ใช้ </li>
+                            <li>สามารถลบโพสต์ / คอมเม้นของผู้ใช้ทั้งหมดได้ <span class="badge incompleted">ยังไม่สมบูรณ์</span></li>
+                            <li>สามารถดูรายชื่อผู้ใช้ทั้งหมดได้</li>
+                        </ul>
+                        <hr>
+                        <a style="display:block;width:fit-content;background-color:#94ebcd;padding:5px;border:#6ddccf 5px solid;border-radius: 8px;" href="https://github.com/BigzaaGamer/social-platform-project-nvc/releases/tag/0.1.1"><i class="fas fa-arrow-circle-down"></i> Download Source Code</a>
+
+            </div>
+        </div>
+    </body>
+</html>
